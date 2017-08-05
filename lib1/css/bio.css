@@ -61,12 +61,13 @@ nav {
 	margin: 15px 0px;
 	text-decoration: underline;
 	padding: 5px;
-
 }
 
 .all li a {
   background-color: #91aab1;
 	display: block;
+
+
 }
 /*-----------------THIS STYLES THE HEADER-------------------------------------*/
 header {
@@ -225,10 +226,14 @@ h4 {
 	margin-bottom: 25px;
 }
 
-#enumcomp {
+.enumcomp {
 	text-align: center;
-	margin-bottom: 25px;
+	margin-bottom: 5px;
 
+}
+
+#comp {
+	text-align: center;
 }
 
 #plsent2 {
@@ -254,7 +259,16 @@ h4 {
 	padding-left: 25px;
 }
 
-#box {
+#textarea {
+	text-align: center;
+}
+
+#ques {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#submit {
   text-align: center;
 }
 /*-----------------------------GALLERY-----------------------------------------*/
@@ -279,10 +293,50 @@ figcaption {
 }
 
 
-/*---------------------------------------DESKTOP MEDIA QUERY-------------------------------*/
+/*---------------------------------------TABLET MEDIA QUERY-------------------------------*/
 
-@media (min-width: 800) {
-	.all {
-		font-size: 30px
+@media (min-width: 700px) and (max-width: 1000px)  {
+
+/*---------------------------------NAV BAR------------------------------------------------*/
+
+
+	.all li {
+		font-size: 20px;
 	}
+
+
+
+/*-------------------------CODE PEN-------------------------------------*/
+
+#pen p {
+	line-height: 150%;
+}
+
+/*-----------------------RESUME--------------------*/
+
+#sks {
+	line-height: 125%;
+}
+
+}
+
+
+/*-------------------------------------DESKTOP MEDIA QUERY------------------------*/
+
+@media (min-width: 1001px) {
+
+	.all li {
+		font-size: 25px;
+	}
+
+/*---------------------------------CODE PEN---------------------------*/
+
+#pen h2 {
+	margin-bottom: 20px;
+}
+
+#pen p {
+	line-height: 180%;
+}
+
 }

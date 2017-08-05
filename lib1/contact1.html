@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Contact</title>
-  <link type= "text/css" rel= "stylesheet" href="css/bio.css"/>
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Contact</title>
+    <link type= "text/css" rel= "stylesheet" href="css/bio.css"/>
+    <script> src="../js/biography.js"</script>
+  </head>
 <body>
   <header>
 
@@ -18,39 +19,59 @@
       <a href="codepen1.html" class="navbar"><li>CODEPEN</li></a>
       <a href="contact1.html" class="navbar"><li>CONTACT</li></a>
       <a href="gallery1.html" class="navbar"><li>GALLERY</li></a>
-  </ul>
-</nav>
-<section>
-<h1>Contact</h1>
-<form action="#" method="get">
-  <div id="name">
-    <p>Please fill out this form in order to be contacted</p>
-    <p id="plsent1">Please enter your first and last name.</p>
+    </ul>
+  </nav>
+  <section>
+    <h1>Contact</h1>
+    <form  action="" onSubmit="validate(); event.preventDefault()" method="get">
+      <div id="name">
+        <p>Please fill out this form in order to be contacted</p>
+        <p id="plsent1">Please enter your first and last name.</p>
   </div>
-    <div id="fname" class="space">
-    First name: <input type="text" name="fname">
+  <div id="fname" class="space">
+    <label>
+      First name: <input type="text">
+    </label>
   </div>
   <div id="lname" class="space">
-  Last name: <input type="text" name="lname"><br>
-</div>
-<div id="plsent2">
-  <p>Please enter your Email, phone number, and company name.</p>
-</div>
-<div id="enumcomp">
-<span class="email">Email:</span><span class="email1"><input  class="space" type="text" name="email"></span><br>
-Phone Number: <input  class="space" type="text" name="phone"><br>
-Company Name: <input  class="space" type="text" name="company"><br>
-</div>
-<p id="plsent3">Please enter any comments or questions.</p>
-Comments/Questions: <textarea name="company"></textarea><br>
+    <label>
+      Last name: <input type="text">
+    </label>
   </div>
-</div>
-<div id="box">
-  <input type="submit" value="Save">
+  <div id="plsent2">
+    <p>Please enter your Email, phone number, and company name.</p>
   </div>
-</section>
-<footer>
-  <a href="http://roadtohire.org/">Road To Hire</a>
-  <a href="https://www.linkedin.com/in/victoria-echevarria-671a67146/?trk=uno-choose-ge-no-intent&dl=no">Linkdin</a>
-</footer>
-</body>
+  <div class="enumcomp">
+    <label>
+      <span class="email">Email:</span><span class="email1"><input  class="space" type="text" name="email"></span>
+    </label>
+  </div>
+  <div class="enumcomp">
+    <label>
+      Phone Number: <input  class="space" type="text" name="phone">
+    </label>
+  </div>
+  <div  id="comp">
+    <label>
+      Company Name: <input  class="space" type="text">
+    </label>
+  </div>
+  <div>
+    <p id="plsent3">Please enter any comments or questions.</p>
+    <label>
+    </div>
+    <div id="ques">
+      <span class="textarea">Comments/Questions: <textarea></textarea></span>
+    </label>
+  </div>
+  <div id="submit">
+    <label>
+      <input type="submit" value="Submit">
+    </label>
+  </div>
+  </section>
+  <footer>
+    <a href="http://roadtohire.org/">Road To Hire</a>
+    <a href="https://www.linkedin.com/in/victoria-echevarria-671a67146/?trk=uno-choose-ge-no-intent&dl=no">Linkdin</a>
+  </footer>
+  </body>
