@@ -1,0 +1,288 @@
+/* THIS IS THE CSS RESET */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*----------------------THIS STYLES THE UL OF THE NAV BAR---------------------------------*/
+nav {
+  overflow: auto;
+}
+.all {
+  list-style-type: none;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+
+}
+
+.all li {
+	color: black;
+	margin: 15px 0px;
+	text-decoration: underline;
+	padding: 5px;
+
+}
+
+.all li a {
+  background-color: #91aab1;
+	display: block;
+}
+/*-----------------THIS STYLES THE HEADER-------------------------------------*/
+header {
+  background: url('../img/freedom.jpg') 40% 85% no-repeat transparent;
+  background-size: cover;
+  height: 350px;
+  display:block;
+}
+/*-----------------------------INDEX-------------------------------------------*/
+body {
+  background-color: #91aab1;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: underline;
+  margin-top: 50px;
+  margin-bottom: 20px;
+
+}
+
+#ho {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#r2h {
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 23px;
+  text-decoration: underline;
+}
+
+
+p {
+  text-align: center;
+  font-size: 20px;
+}
+footer {
+  text-align: center;
+  padding-top: 110px;
+}
+
+/*-------------------------BIOGRAPHY--------------------------------------------*/
+.biopg {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.bioh1 {
+  padding-bottom: 30px;
+}
+
+.bioh2 {
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+.hobli {
+  font-size: 20px;
+}
+
+/*-------------------------------RESUME------------------------------------------*/
+
+.job {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#rezcontact {
+  text-align: center;
+  font-size: 20px;
+}
+
+#skills {
+  padding-top: 30px;
+  padding-bottom: 25px;
+}
+
+#sks {
+  text-align: center;
+  padding-bottom: 25px;
+  font-size: 20px;
+}
+
+#emhis {
+  padding-bottom: 25px;
+}
+
+#vol {
+  padding-bottom: 25px;
+}
+
+.job {
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.descrip {
+  padding-bottom: 20px;
+}
+
+h4 {
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+/*--------------------CODEPEN--------------------------------------*/
+
+#pen {
+  text-align: center;
+  font-size: 20px;
+}
+
+#pen p {
+    padding-bottom: 30px;
+}
+
+#pen a {
+	color: blue;
+}
+
+/*----------------------------------CONTACT------------------------------------*/
+
+
+
+#name {
+  text-align: center;
+	margin-bottom: 25px;
+}
+
+#fname {
+	text-align: center;
+
+
+}
+
+#lname {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#plsent1 {
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+
+#enumcomp {
+	text-align: center;
+	margin-bottom: 25px;
+
+}
+
+#plsent2 {
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+
+#plsent3 {
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+
+.space {
+	margin-bottom: 5px;
+}
+
+.email {
+	padding-right: 20px;
+
+}
+
+.email1 {
+	padding-left: 25px;
+}
+
+#box {
+  text-align: center;
+}
+/*-----------------------------GALLERY-----------------------------------------*/
+
+.pics {
+  text-align: center;
+  font-weight: bold;
+}
+
+#galh1 {
+  padding-bottom: 20px;
+}
+
+.pic {
+  width: 45%
+}
+
+figcaption {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  font-weight: bold;
+}
+
+
+/*---------------------------------------DESKTOP MEDIA QUERY-------------------------------*/
+
+@media (min-width: 800) {
+	.all {
+		font-size: 30px
+	}
+}
