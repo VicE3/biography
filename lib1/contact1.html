@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width">
     <title>Contact</title>
     <link type= "text/css" rel= "stylesheet" href="css/bio.css"/>
-    <script> src="../js/biography.js"</script>
+    <script src="js/biography.js"></script>
   </head>
 <body>
   <header>
@@ -13,17 +13,17 @@
   </header>
   <nav>
     <ul class="all">
-      <a href="index.html" class="navbar"><li>HOME</li></a>
-      <a href="bio1.html" class="navbar"><li>BIOGRAPHY</li></a>
-      <a href="resume1.html" class="navbar"><li>RESUME</li></a>
-      <a href="codepen1.html" class="navbar"><li>CODEPEN</li></a>
-      <a href="contact1.html" class="navbar"><li>CONTACT</li></a>
-      <a href="gallery1.html" class="navbar"><li>GALLERY</li></a>
+      <li><a href="index.html" class="navbar">HOME</a></li>
+      <li><a href="bio1.html" class="navbar">BIOGRAPHY</a></li>
+      <li><a href="resume1.html" class="navbar">RESUME</a></li>
+      <li><a href="codepen1.html" class="navbar">CODEPEN</a></li>
+      <li><a href="contact1.html" class="navbar">CONTACT</a></li>
+      <li><a href="gallery1.html" class="navbar">GALLERY</a></li>
     </ul>
   </nav>
   <section>
     <h1>Contact</h1>
-    <form  action="" onSubmit="validate(); event.preventDefault()" method="get">
+    <form  action="validate()" onSubmit="event.preventDefault()" method="get">
       <div id="name">
         <p>Please fill out this form in order to be contacted</p>
         <p id="plsent1">Please enter your first and last name.</p>
@@ -41,12 +41,12 @@
   <div id="plsent2">
     <p>Please enter your Email, phone number, and company name.</p>
   </div>
-  <div class="enumcomp">
+  <div id="email" class="enumcomp">
     <label>
       <span class="email">Email:</span><span class="email1"><input  class="space" type="text" name="email"></span>
     </label>
   </div>
-  <div class="enumcomp">
+  <div id="phone" class="enumcomp">
     <label>
       Phone Number: <input  class="space" type="text" name="phone">
     </label>
@@ -58,9 +58,9 @@
   </div>
   <div>
     <p id="plsent3">Please enter any comments or questions.</p>
-    <label>
     </div>
     <div id="ques">
+      <label>
       <span class="textarea">Comments/Questions: <textarea></textarea></span>
     </label>
   </div>
@@ -69,9 +69,10 @@
       <input type="submit" value="Submit">
     </label>
   </div>
+</form>
   </section>
   <footer>
     <a href="http://roadtohire.org/">Road To Hire</a>
-    <a href="https://www.linkedin.com/in/victoria-echevarria-671a67146/?trk=uno-choose-ge-no-intent&dl=no">Linkdin</a>
+    <a href="https://www.linkedin.com/in/victoria-echevarria-671a67146/?trk=uno-choose-ge-no-intent&dl=no">Linkedin</a>
   </footer>
   </body>

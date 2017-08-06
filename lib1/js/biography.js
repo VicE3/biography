@@ -1,3 +1,9 @@
+
+form.addEventListener(onsubmit, validate());
+
+
+
+
 function validate() {
 
 if(fname.length === 0) {
@@ -16,5 +22,3 @@ if(phone.length !=== /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/) {
   alert("Please enter a valid phone number.")
 }
 }
-
-validate();
